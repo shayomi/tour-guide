@@ -12,10 +12,10 @@ const Comp3 = () => {
           <img src={Comp5_image} alt="" className="rounded-lg" />
         </div>
         <div className="flex flex-col gap-y-4 lg:flex-row gap-x-12 mx-auto mt-4">
-          <div className=" mt-6 lg:mt-0 w-[400px] h-[400px] overflow-hidden">
+          <div className=" mt-6 lg:mt-0 w-[400px] h-[400px] overflow-hidden mx-auto">
             <img src={Comp6_image} alt="" className="rounded-lg" />
           </div>
-          <div className=" mt-6 lg:mt-0 w-[600px] h-[400px] overflow-hidden">
+          <div className=" mt-6 lg:mt-0 max-w-[600px] h-[400px] overflow-hidden">
             <img src={Comp7_image} alt="" className="rounded-lg" />
           </div>
         </div>
