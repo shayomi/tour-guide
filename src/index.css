@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary bg-white max-w-[1240px] w-full mx-auto;
+  }
+
+  .h1 {
+    @apply font-secondary text-[25px]  lg:text-[50px];
+  }
+  .h2 {
+    @apply font-secondary font-semibold text-2xl;
+  }
+
+  .btn-primary {
+    @apply rounded-[12px] bg-darkblue px-8 text-lg py-3  text-lightblue font-primary font-semibold tracking-[0.02em] outline-none hover:bg-[#4088a9] transition-all duration-300 flex justify-center items-center;
+  }
+  .btn-secondary {
+    @apply rounded-[12px] bg-lightblue px-8 text-lg py-3  text-darkblue font-primary font-semibold tracking-[0.02em] outline-none hover:bg-[#204455] transition-all duration-300 flex justify-center items-center;
+  }
+}
