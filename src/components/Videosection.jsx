@@ -35,7 +35,7 @@ const Banner = () => {
             <p>Have you been denied visa once or many times? </p>
           </div>
           <div className="max-w-[500px] justify-center mx-auto ">
-            <video className="" src={Video} controlsList="nodownload"></video>
+            <video className="" src={Video}></video>
           </div>
           <div className="hidden lg:flex flex-col gap-y-4 justify-start text-start font-primary order-1 ">
             <p>
