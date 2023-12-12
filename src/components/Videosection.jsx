@@ -18,6 +18,12 @@ const Banner = () => {
   //     }
   //   };
 
+  const videoRef = useRef(null);
+
+  const handleContextMenu = (e) => {
+    e.preventDefault();
+    alert("Right-clicking is disabled on this video.");
+  };
   return (
     <div className=" w-[98%] lg:w-[95%] mx-auto mt-12 lg:mt-24">
       <div className="">
@@ -36,10 +42,12 @@ const Banner = () => {
           </div>
           <div className="max-w-[500px] justify-center mx-auto ">
             <video
+              ref={videoRef}
               className=""
               src={Video}
               controls
               controlsList="nodownload"
+              onContextMenu={handleContextMenu}
             ></video>
           </div>
           <div className="hidden lg:flex flex-col gap-y-4 justify-start text-start font-primary order-1 ">
