@@ -19,7 +19,9 @@ const Newsletter = () => {
           </p>
         </div>
         <a href="#" className="justify-center mx-auto">
-          <button className="btn-secondary mt-6">Enrol Now</button>
+          <a href="https://paystack.com/pay/wcye6nwtfb" target="_blank">
+            <button className="btn-secondary mt-6">Enrol Now</button>
+          </a>
         </a>
       </div>
     </div>

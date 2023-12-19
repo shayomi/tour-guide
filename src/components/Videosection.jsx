@@ -4,20 +4,6 @@ import React from "react";
 import Video from "../assets/video/video.mp4";
 
 const Banner = () => {
-  //   const fullScreenVideoRef = useRef(null);
-  //   toggleFullScreen = () => {
-  //     var el = document.getElementById("full-screenVideo");
-  //     if (el.requestFullscreen) {
-  //       el.requestFullscreen();
-  //     } else if (el.msRequestFullscreen) {
-  //       el.msRequestFullscreen();
-  //     } else if (el.mozRequestFullScreen) {
-  //       el.mozRequestFullScreen();
-  //     } else if (el.webkitRequestFullscreen) {
-  //       el.webkitRequestFullscreen();
-  //     }
-  //   };
-
   const videoRef = useRef(null);
 
   const handleContextMenu = (e) => {
