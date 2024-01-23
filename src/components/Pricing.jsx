@@ -7,14 +7,14 @@ const Pricing = () => {
         <div className="flex flex-col justify-center text-center px-6 lg:px-5 border-r-[1px] border-white-100 ">
           <h2 className="font-tetiary font-medium text-white text-[25px] lg:text-[50px]">
             {" "}
-            N30,000 / 30usd
+            N70,000 / 70usd
           </h2>
           <p className="font-primary text-white text-[12px]">Course Price</p>
         </div>
         <div className="flex flex-col justify-center text-center px-6 lg:px-5">
           <h2 className="font-tetiary font-medium text-white text-[25px] lg:text-[50px]">
             {" "}
-            N10,000 / 10usd
+            N20,000 / 20usd
           </h2>
           <p className="font-primary text-white text-[12px]">
             Discounted Price
