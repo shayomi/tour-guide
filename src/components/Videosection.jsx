@@ -11,7 +11,7 @@ const Banner = () => {
     alert("Right-clicking is disabled on this video.");
   };
   return (
-    <div className=" w-[98%] lg:w-[95%] mx-auto mt-12 lg:mt-24">
+    <div className=" max-w-[1240px] px-12 mx-auto mt-12 lg:mt-24">
       <div className="">
         <div className=" flex flex-col lg:flex-row gap-y-6 gap-x-12 ">
           <div className="flex flex-col gap-y-4 justify-start text-start font-primary max-w-[600px] mx-auto lg:hidden ">

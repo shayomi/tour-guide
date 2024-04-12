@@ -5,7 +5,7 @@ import Comp4_image from "../assets/img/Inertia/4.jpg";
 
 const Comp2 = () => {
   return (
-    <div className=" w-[95%] lg:w-[95%] mx-auto mt-12 lg:mt-24">
+    <div className=" max-w-[1240px] px-12 mx-auto mt-12 lg:mt-24">
       <div className="">
         <div className=" flex flex-col lg:flex-row gap-y-6 justify-evenly ">
           <div className="flex flex-col gap-y-4 justify-start text-start font-primary max-w-[500px] mx-auto   ">

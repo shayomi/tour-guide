@@ -9,17 +9,18 @@ import Pricing from "../components/Pricing";
 import Calltoaction from "../components/Calltoaction";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
+import Review from "../components/Review";
 
 const Home = () => {
   return (
-    <div className="max-w-[1240px] w-full">
+    <div className="max-w-[1440px] w-full">
       <Navbar />
       <Banner />
       <Videosection />
       <Comp1 />
       <Comp2 />
       <Comp3 />
-
+      <Review />
       <Pricing />
       <Calltoaction />
       <Newsletter />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Calltoaction = () => {
   return (
-    <div className=" w-[95%] lg:w-[95%] mx-auto mt-6 lg:mt-12">
+    <div className=" w-[95%] lg:w-[95%]  mx-auto mt-6 lg:mt-12">
       <div className="block gap-y-4 justify-center">
         <p className="font-primary text-lg mx-auto text-center ">
           Enroll in the Relocating to Rwanda: Blueprint course today and embark

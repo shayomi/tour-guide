@@ -6,7 +6,7 @@ import Comp7_image from "../assets/img/bg/2.png";
 
 const Comp3 = () => {
   return (
-    <div className=" w-[95%] lg:w-[95%] mx-auto mt-12 lg:mt-24">
+    <div className=" max-w-[1240px] px-12 mx-auto mt-12 lg:mt-24">
       <div className="flex flex-col gap-y-4">
         <div className=" mt-6 lg:mt-0">
           <img src={Comp5_image} alt="" className="rounded-lg" />

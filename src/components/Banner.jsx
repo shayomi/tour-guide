@@ -3,7 +3,7 @@ import bannerimg from "../assets/img/bg/1.jpg";
 
 const Videosection = () => {
   return (
-    <div className="w-[98%] lg:w-[95%] mx-auto mt-12 lg:mt-24">
+    <div className="max-w-[1240px] px-12 mx-auto mt-12 lg:mt-24">
       <div className="">
         <div className=" flex flex-col lg:flex-row ">
           <div className="flex flex-col gap-y-4 justify-start mx-auto">
